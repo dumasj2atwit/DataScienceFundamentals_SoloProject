@@ -72,9 +72,9 @@ To make working with our dataset easier, we decided to split our original datase
 
 ### Question 1 (Which publishers dominate the video game market based on global sales?):
 I asked this question to see how certain publishers reached the top of their sales and maybe figure out if there are strategies that can generate a lot of revenue. I thought it would be best to group the dataset by publisher, sort by publisher, and take the head of each list.
-
+<img width="1113" height="361" alt="image" src="Q1code.png" />
 I originally wanted to make a bar graph, but I thought a bubble chart would be more interesting and different from what I worked on in the group project. I thought the idea of using a scale to measure the total sales and then mapping the important factors to the other axis.
-
+<img width="1113" height="361" alt="image" src="Q1plot.png" />
 The results show a small trend: some of the top publishers make many sales based on the number of games they release. There are some outliers: Nintendo has the highest sales but fewer games, while Electronic Arts has the most games and decent sales, but still less than Nintendo. There is also Take-Two Interactive, which has the fewest number of games but had a better average sales than Ubisoft, which had more games and total sales. So I would say there isn't a definite strategy for these publishers to achieve significant success.
 
 
