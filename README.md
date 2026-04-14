@@ -5,7 +5,7 @@
 
 The purpose of this project was to gain experience in finding, cleaning, querying, and analyzing a dataset to build on the skills I have learned throughout the semester. I was tasked with locating a dataset, creating and answering two research questions, applying a machine learning technique, and creating this documentation. After some deliberation, my group settled on a dataset of video game sales from Kaggle, and I decided to use it to answer more questions. Following our decision These were the questions I decided to choose for myself:
 * Which publishers dominate the video game market based on global sales?
-* How has the number of game releases changed over time?
+* How has the number of game releases changed over time, and what genres are more prevalent in those years?
 
 ## Selection of Data
 
@@ -50,6 +50,7 @@ Our dataset has a few oddities that we can't really fix or edit. The biggest odd
 * Numpy
 * Matplotlib
 * Seaborn
+* SKLearn
   
 
 ### Charting/Machine Learning Applied
@@ -68,3 +69,25 @@ To make working with our dataset easier, we decided to split our original datase
 
 
 ## Results
+
+### Question 1 (Which publishers dominate the video game market based on global sales?):
+I asked this question to see how certain publishers reached the top of their sales and maybe figure out if there are strategies that can generate a lot of revenue. I thought it would be best to group the dataset by publisher, sort by publisher, and take the head of each list.
+
+I originally wanted to make a bar graph, but I thought a bubble chart would be more interesting and different from what I worked on in the group project. I thought the idea of using a scale to measure the total sales and then mapping the important factors to the other axis.
+
+The results show a small trend: some of the top publishers make many sales based on the number of games they release. There are some outliers: Nintendo has the highest sales but fewer games, while Electronic Arts has the most games and decent sales, but still less than Nintendo. There is also Take-Two Interactive, which has the fewest number of games but had a better average sales than Ubisoft, which had more games and total sales. So I would say there isn't a definite strategy for these publishers to achieve significant success.
+
+
+
+### Question 2 (How has the number of game releases changed over time and what genres are more prevalent in those years?):
+
+
+
+## Conclusion
+
+After working without data for a while, we came to several conclusions:
+
+* 
+* 
+
+If given the opportunity, we'd like to expand our dataset by a few years and see how these questions and charts change. The last few years have seen a major increase in the number of games released per year, and it would be interesting to see how they fare against the high-earning years outlined in our current dataset.
