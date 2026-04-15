@@ -86,9 +86,11 @@ I had to reshape the data into a pivot table for visualization. The idea for a s
 <img width="700" height="361" alt="image" src="Q2Plot.png" />
 <img width="700" height="361" alt="image" src="Q2Plot1995.png" />
 To further analyze trends, I applied polynomial regression using scikit-learn to model the relationship between year and total number of game releases. This approach captures the industry's nonlinear growth patterns, including periods of rapid expansion and eventual decline. This is different from my group project model, where I used linear regression before.
-<img width="700" height="361" alt="image" src="Q2codePart2.png" />
+<img width="700" height="361" alt="image" src="Q2codepart2.png" />
 <img width="700" height="361" alt="image" src="Q2PolyRegression.png" />
-
+* Conclusions for plot 1: We can see a rise in games from the 1980s to a steep increase in the 90s to an even steeper increase in the 2000s, reaching the peak at the start of the 2010s. The dominant genres in the area are sports and action.
+* Conclusion for plot 2: Before the late 90s, game releases weren't as prevalent but were still growing gradually. Genres were pretty split evenly, and the action genre has always been popular from the beginning
+* Conclusion for plot 3: The polynomial regression model captures the overall lifecycle of the video game industry’s growth, showing a slow start, rapid expansion, and eventual peak.
 
 
 
@@ -96,7 +98,7 @@ To further analyze trends, I applied polynomial regression using scikit-learn to
 
 After working without data for a while, we came to several conclusions:
 
-* 
-* 
+* Publisher Dominance is not fully based on the number of games released; instead, making high-performing titles is more important to succeed.
+* The videogame industry has grown over time with more releases and more genres growing while some genres become more prevalent than others.
 
 If given the opportunity, we'd like to expand our dataset by a few years and see how these questions and charts change. The last few years have seen a major increase in the number of games released per year, and it would be interesting to see how they fare against the high-earning years outlined in our current dataset.
