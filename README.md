@@ -74,12 +74,21 @@ To make working with our dataset easier, we decided to split our original datase
 I asked this question to see how certain publishers reached the top of their sales and maybe figure out if there are strategies that can generate a lot of revenue. I thought it would be best to group the dataset by publisher, sort by publisher, and take the head of each list.
 <img width="1113" height="361" alt="image" src="Q1code.png" />
 I originally wanted to make a bar graph, but I thought a bubble chart would be more interesting and different from what I worked on in the group project. I thought the idea of using a scale to measure the total sales and then mapping the important factors to the other axis.
-<img width="1113" height="361" alt="image" src="Q1plot.png" />
+<img width="700" height="361" alt="image" src="Q1plot.png" />
 The results show a small trend: some of the top publishers make many sales based on the number of games they release. There are some outliers: Nintendo has the highest sales but fewer games, while Electronic Arts has the most games and decent sales, but still less than Nintendo. There is also Take-Two Interactive, which has the fewest number of games but had a better average sales than Ubisoft, which had more games and total sales. So I would say there isn't a definite strategy for these publishers to achieve significant success.
 
 
 
 ### Question 2 (How has the number of game releases changed over time and what genres are more prevalent in those years?):
+I asked a simpler version of this question for our group project but I wanted to experiment more and see the differences in genres changing over the years. I grouped the dataset by year and genre and counted the number of game releases in each category.
+<img width="700" height="361" alt="image" src="Q2codepart1.png" />
+I had to reshape the data into a pivot table for visualization. The idea for a stacked area chart was to show the range in genres over the years. I made two plots one which is cumulative of all data and one that is zoomed in before the large increase in games at around 1995.
+<img width="700" height="361" alt="image" src="Q2Plot.png" />
+<img width="700" height="361" alt="image" src="Q2Plot1995.png" />
+To further analyze trends, I applied polynomial regression using scikit-learn to model the relationship between year and total number of game releases. This approach captures the industry's nonlinear growth patterns, including periods of rapid expansion and eventual decline. This is different from my group project model, where I used linear regression before.
+<img width="700" height="361" alt="image" src="Q2codePart2.png" />
+<img width="700" height="361" alt="image" src="Q2PolyRegression.png" />
+
 
 
 
